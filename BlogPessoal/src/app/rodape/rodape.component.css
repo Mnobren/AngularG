@@ -1,0 +1,19 @@
+.footer
+{
+    list-style: none;
+    padding: 0;
+}
+
+.footer > li
+{
+    display: inline;
+    margin: 0;
+    padding: 5px;
+}
+
+.icon
+{
+    font-size: 35pt;
+    color: black;
+    padding: 10px;
+}
