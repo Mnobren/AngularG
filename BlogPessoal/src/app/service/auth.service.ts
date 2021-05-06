@@ -4,6 +4,7 @@ import { Observable } from 'rxjs';
 import { UserLogin } from '../model/UserLogin';
 import { User } from '../model/User';
 import { environment } from 'src/environments/environment.prod';
+import { FormsModule } from '@angular/forms';
 
 @Injectable({
   providedIn: 'root'

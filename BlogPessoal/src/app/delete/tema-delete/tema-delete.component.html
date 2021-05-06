@@ -1,0 +1,27 @@
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Apagar Tema</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <h4>Você tem certeza ?</h4>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <h5>Tema: {{tema.descricao}}</h5>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <button class="btn btn-danger" routerLink="/tema">Não</button>
+            <button class="btn btn-success" (click)="apagar()">Sim</button>
+        </div>
+    </div>
+</div>
