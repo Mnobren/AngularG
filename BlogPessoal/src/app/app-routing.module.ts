@@ -5,8 +5,11 @@ import { CadastrarComponent } from './cadastrar/cadastrar.component';
 import { EntrarComponent } from './entrar/entrar.component';
 import { HomeComponent } from './home/home.component';
 import { TemaComponent } from './tema/tema.component';
+import { UserEditComponent } from './edit/user-edit/user-edit.component';
 import { TemaEditComponent } from './edit/tema-edit/tema-edit.component';
 import { TemaDeleteComponent } from './delete/tema-delete/tema-delete.component';
+import { PostagemEditComponent } from './edit/postagem-edit/postagem-edit.component';
+import { PostagemDeleteComponent } from './delete/postagem-delete/postagem-delete.component';
 
 const routes: Routes = [
 
@@ -17,8 +20,11 @@ const routes: Routes = [
     {path: 'home', component: HomeComponent},
     
     {path: 'tema', component: TemaComponent},
+    {path: 'user-edit/:id', component: UserEditComponent},
     {path: 'tema-edit/:id', component: TemaEditComponent},
-    {path: 'tema-delete/:id', component: TemaDeleteComponent}
+    {path: 'tema-delete/:id', component: TemaDeleteComponent},
+    {path: 'postagem-edit/:id', component: PostagemEditComponent},
+    {path: 'postagem-delete/:id', component: PostagemDeleteComponent}
 ];
 
 @NgModule({
